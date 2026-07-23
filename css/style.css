@@ -61,6 +61,8 @@ body::before{
     radial-gradient(30% 22% at 90% 88%, var(--red) 0%, transparent 100%);
   filter:blur(80px);
   opacity:.45;
+  transform:translateZ(0);
+  will-change:transform;
 }
 
 /* ---------- film grain overlay ---------- */
