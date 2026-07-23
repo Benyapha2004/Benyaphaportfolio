@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(command -v node)",
+      "Bash(command -v npx)",
+      "Bash(command -v python)",
+      "Bash(command -v py)",
+      "Bash(py --version)",
+      "Skill(run)",
+      "Bash(curl -sI http://localhost:8080/index.html)",
+      "Bash(where py *)",
+      "Bash(where php *)",
+      "Bash(where node.exe)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/banya/AppData/Roaming/**)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:8791/index.html)",
+      "Bash(curl -s http://127.0.0.1:8791/index.html)",
+      "Bash(awk 'NR==314' \"f:/benyaphaWP/js/main.js\")",
+      "WebFetch(domain:fonts.google.com)",
+      "Bash(curl -s -o /tmp/font_check.css -w \"HTTP:%{http_code}\\\\n\" \"https://fonts.googleapis.com/css2?family=FC+Mittraphap+Rounded&display=swap\")",
+      "Read(//tmp/**)",
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}

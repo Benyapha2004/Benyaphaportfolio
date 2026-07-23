@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="meta.title.work">ผลงาน — เบญญาภา วัฒนะเสวี</title>
+<meta name="description" data-i18n="meta.desc.work" content="คลิปและภาพเบื้องหลังจากผลงานการผลิตของเบญญาภา วัฒนะเสวี">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=GFS+Didot&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=22">
+</head>
+<body data-page="portfolio">
+
+<div class="grain"></div>
+
+<div class="topbar">
+  <a class="brand mono" href="index.html">W. Benyapha</a>
+  <nav>
+    <a href="index.html" data-nav="home" data-i18n="nav.home">หน้าแรก</a>
+    <a href="portfolio.html" data-nav="portfolio" data-i18n="nav.portfolio">ผลงาน</a>
+    <a href="contact.html" data-nav="contact" data-i18n="nav.contact">ติดต่อ</a>
+    <button type="button" id="langToggle" class="lang-toggle mono" aria-label="Switch to English">EN</button>
+  </nav>
+</div>
+
+<div class="shell">
+
+  <div class="main">
+    <div class="sprocket"></div>
+
+    <section id="workDetail">
+      <p class="slugline" data-i18n="slug.cutTo">ตัดเข้าฉาก:</p>
+      <a class="work-back mono" href="portfolio.html" data-i18n="work.back">← กลับไปที่ผลงาน</a>
+
+      <div class="head-row reveal">
+        <div>
+          <span class="eyebrow" data-i18n="portfolio.eyebrow">ม้วนที่ 03 · คอนแทคชีต</span>
+          <h2 id="workTitle" data-i18n="work.title.loading">กำลังโหลด…</h2>
+        </div>
+        <p class="head-note" id="workCaption"></p>
+      </div>
+
+      <div class="work-video video-modal-body reveal" id="workVideoBody"></div>
+      <a class="work-link mono" id="workLink" target="_blank" rel="noopener" data-i18n="modal.link">เปิดดูต้นฉบับ ↗</a>
+
+      <div class="work-award reveal" id="workDetailBlock">
+        <span class="work-award-label" id="workDetailLabel"></span>
+        <p class="work-award-title" id="workDetailTitle"></p>
+        <p class="work-award-sub mono" id="workDetailContext"></p>
+        <p class="work-award-desc" id="workDetailDesc"></p>
+      </div>
+
+      <div class="work-gallery reveal" id="workGallery">
+        <div class="work-gallery-title mono" data-i18n="work.gallery.title">เบื้องหลัง</div>
+        <div class="work-gallery-grid" id="workGalleryGrid"></div>
+      </div>
+
+      <nav class="pagenav reveal">
+        <a class="prev" href="portfolio.html">
+          <span class="dir mono" data-i18n="work.pagenav.backTo">← กลับไปที่</span>
+          <span class="pagenav-title" data-i18n="nav.portfolio">ผลงาน</span>
+        </a>
+      </nav>
+    </section>
+
+    <div class="sprocket"></div>
+
+    <footer>
+      <span class="mono" data-i18n="footer.credit">2026 เบญญาภา วัฒนะเสวี ผลงาน</span>
+      <span class="theme-note" data-i18n="work.footer.roll">ม้วนที่ 03 จาก 04</span>
+    </footer>
+  </div>
+</div>
+
+<div class="image-modal-overlay" id="imageModal">
+  <button type="button" class="image-modal-close mono">✕ ปิด</button>
+  <div class="image-modal">
+    <img id="imageModalImg" src="" alt="">
+  </div>
+</div>
+
+<script src="js/main.js?v=27"></script>
+</body>
+</html>

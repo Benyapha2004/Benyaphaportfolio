@@ -1,0 +1,7 @@
+# Raw/source assets not used by the site (kept locally only)
+images/รุปฉัน/
+images/ดีไซน์ที่ยังไม่ได้ตั้งชื่อ (3)/
+
+# OS junk
+Thumbs.db
+.DS_Store
